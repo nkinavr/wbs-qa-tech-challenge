@@ -1,0 +1,28 @@
+/**
+ * Booking domain models for Restful Booker API
+ */
+
+export interface BookingDates {
+  checkin: string; // YYYY-MM-DD
+  checkout: string; // YYYY-MM-DD
+}
+
+export interface Booking {
+  firstname: string;
+  lastname: string;
+  totalprice: number;
+  depositpaid: boolean;
+  bookingdates: BookingDates;
+  additionalneeds?: string;
+}
+
+export interface BookingResponse {
+  bookingid: number;
+  booking: Booking;
+}
+
+export interface BookingId {
+  bookingid: number;
+}
+
+export type BookingUpdate = Partial<Booking>;
