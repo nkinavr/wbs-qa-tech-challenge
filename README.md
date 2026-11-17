@@ -1,5 +1,7 @@
 # WBS QA Engineer Tech Challenge
 
+**Live test report:** https://nkinavr.github.io/wbs-qa-tech-challenge/
+
 **Playwright + TypeScript** framework covering both **API** (Restful Booker) and **UI** (automationintesting.online) with **Allure** reporting.
 
 ---
